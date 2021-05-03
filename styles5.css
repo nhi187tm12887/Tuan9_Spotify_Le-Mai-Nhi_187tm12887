@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#language{
+    background-color: #1d75de;
+    color: #ffffff;
+    padding: 1% 0;
+}
+.d-flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.a-center{
+    align-items: center;
+}
+.f-lang{
+    text-decoration: underline;
+}
+.f-lang a{
+    color: #ffffff;
+}
+#navbar{
+    background-color: #000;
+    padding: 1% 0;
+}
+.spotify_logo{
+    fill: #ffffff;
+}
+.header__logo--svg{
+    width: 120px;
+}
+.nav-item{
+    margin-right: 25px;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.nav-item a{
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.nav-item a:hover{
+    color: #1ed760;
+}
+#main-heading{
+    background-color: rgb(41, 65, 171);
+    height: 100vh;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: 45% 0;
+    position: relative;
+}
+h1{
+    font-size: 9rem;
+    color: #1de760;
+    letter-spacing: -9px;
+    text-indent: -1.7em;
+}
+h2{
+    color: #1de760;
+    font-size: 1.2rem;
+    margin: 35px 0px;
+}
+.content{
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    padding: 15px 30px;
+    border-radius: 200px;
+    text-transform: uppercase;
+    background-color: #1de760;
+    font-weight: bold;
+    color: #2e77d0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.main-btn{
+    text-align: center;
+}
+#footer{
+    background-color: #000;
+    padding: 7% 0;
+}
+.col-lg-2{
+    flex: calc(100%/5);
+}
+.col-lg-2 a:hover{
+    color: #1ed760;
+}
+.col-lg-2 ul li a{
+    color: #ffffff;
+}
+.col-lg-2 ul li{
+    margin: 20px;
+}
+.fb-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+.fb-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tw-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+.tw-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ig-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+.ig-circle a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.f-item a{
+    font-size: 1.5rem;   
+}
+.ro.d-flex a:hover{
+    color: #1de760;
+}
+.ro.d-flex ul li a{
+    color: gray;
+}
+.ro.d-flex{
+    margin: 50px;
+    font-size: 11px;
+}
+.h{
+    padding: 10px;
+    margin-left: 20px;
+}
+.svelte{
+    margin-left: 300px;
+    font-size: 12px;
+}
+.svelte a:hover{
+    color: #1de760;
+}
+.svelte li a{
+    color: gray;
+}
